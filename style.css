@@ -1,0 +1,83 @@
+/* тег <h3> */
+.text-box h3:nth-child(1) {
+    color: pink; /* Рожевий колір */
+}
+
+/* тег <p> з ID "greycol" */
+#greycol {
+    color: grey; /* Сірий колір */
+}
+
+/* тег <p> в тегу <div> колір червоний */
+.text-box div p {
+    color: red;
+}
+
+/* тег <p> після <h3> колір зелений */
+.text-box p:nth-last-child(2){
+    color: green;
+}
+
+/* тег <p> "yellow" */
+p.yellow {
+    color: yellow; /* Жовтий колір */
+}
+
+
+
+
+.body{
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 20px;
+}
+
+.doc {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.day {
+    list-style: none;
+    padding: 5px;
+    border: 1px solid;
+    border-radius: 10px;
+    width: 150px;
+    background-color: #FFFFFF;
+}
+
+.day_hover {
+    background-color: #f9f9f9;
+    border-color: #c3bfbf;
+}
+
+.day_li {
+    padding: 10px 5px;
+}
+
+.day_li:first-child {
+    color: #fef6da;
+}
+
+.day li:last-child {
+    color:#fef6da;
+}
+
+.day li:nth-child(n) {
+    color: #fef6da;
+}
+
+.day li:hover {
+    color: #fff;
+    background-color: #fef6da;
+}
+
+.day:nth-child(odd) {
+    background-color: #f3b4de;
+}
+
+.day:nth-child(even) {
+    background-color: #a18eee;
+}
